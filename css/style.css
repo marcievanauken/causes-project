@@ -1,20 +1,84 @@
 html{
-	background-color: black;
+	background-color: rgb(204, 204, 255);
 }
 h1 {
 	text-align: center;
-	color: white;
+	font-family: Tahoma, sans-serif;
 }
 
-li {
-	display: inline;
-	font-size: 14pt;
-}
 
 .nav {
-	float: left;	
+	width: 550px;
+    height: 35px;
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 8px;
+    padding-left: 350px;
 }
 
-.footer {
+.nav ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.nav li { 
+display: inline; 
+padding: 20px; 
+}
+
+.cause1 img{
+	height: 250px;
+	width: 250px;
 	float: left;
+	padding-right: 10px;
+}
+
+
+.cause2 img{
+	height: 250px;
+	width: 250px;
+	float: right;
+	padding-left: 10px;
+}
+
+.cause3 img{
+	height: 250px;
+	width: 250px;
+	float: left;
+	padding-right: 10px;
+}
+
+.donate{
+padding:50px 25px; 
+background:#35b128; 
+border:1px solid #33842a; 
+text-align: center;
+color:#f3f3f3;
+font-size:20pt;
+}
+
+
+.footer {
+	width: 550px;
+    height: 35px;
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 8px;
+    padding-left: 350px;
+}
+
+.footer ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.footer li { 
+display: inline; 
+padding: 20px; 
 }
