@@ -29,7 +29,7 @@ display: inline;
 padding: 20px; 
 }
 
-.cause1 img{
+#cause1 img{
 	height: 250px;
 	width: 250px;
 	float: left;
@@ -38,7 +38,7 @@ padding: 20px;
 }
 
 
-.cause2 img{
+#cause2 img{
 	height: 250px;
 	width: 250px;
 	float: right;
@@ -46,7 +46,7 @@ padding: 20px;
 	padding-left: 10px;
 }
 
-.cause3 img{
+#cause3 img{
 	height: 250px;
 	width: 250px;
 	float: left;
@@ -68,7 +68,7 @@ font-size:20pt;
 	font-size: 18px;
 	width: 200px;
 	text-align: center;
-	font-weight: 400
+	font-weight: 40
 }
 
 .footer {
