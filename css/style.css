@@ -7,6 +7,37 @@ h1 {
 }
 
 
+#container{
+   text-align: center;
+   margin: 80px;
+   /*border: 2px solid re;*/
+   padding:20px;
+   background-color: grey;
+}
+
+ 
+ ul.nav li{   
+      margin: 30px;
+   	display: inline; 
+
+   }
+
+.header{
+margin:20px;
+padding: 5px;
+width:300px;
+height:450px;
+float:left;
+
+}
+
+
+ul.footer li{
+margin:30px;
+display: inline;
+}
+
+
 .nav {
 	width: 550px;
     height: 35px;
@@ -89,6 +120,6 @@ font-size:20pt;
 }
 
 .footer li { 
-display: inline; 
-padding: 20px; 
+  display: inline; 
+  padding: 20px; 
 }
