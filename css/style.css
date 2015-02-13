@@ -6,6 +6,10 @@ h1 {
 	font-family: Tahoma, sans-serif;
 }
 
+body {
+  margin:0;
+}
+
 
 #container{
    text-align: center;
@@ -13,6 +17,8 @@ h1 {
    /*border: 2px solid re;*/
    padding:20px;
    background-color: grey;
+   width:1060px;
+   margin:0 auto;
 }
 
  
@@ -46,7 +52,7 @@ display: inline;
     font-weight: bold;
     text-align: right;
     border-radius: 8px;
-    padding-left: 350px;
+    padding-left: 210px;
 }
 
 .nav ul {
@@ -103,6 +109,7 @@ font-size:20pt;
 }
 
 .footer {
+  clear:both;
 	width: 550px;
     height: 35px;
     font-size: 24px;
@@ -110,7 +117,7 @@ font-size:20pt;
     font-weight: bold;
     text-align: right;
     border-radius: 8px;
-    padding-left: 350px;
+    padding-left: 210px;
 }
 
 .footer ul {
