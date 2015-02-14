@@ -1,59 +1,50 @@
-html{
+html {
 	background-color: rgb(204, 204, 255);
 }
+
 h1 {
 	text-align: center;
 	font-family: Tahoma, sans-serif;
 }
 
 body {
-  margin:0;
+    margin:0;
 }
 
 
-#container{
-   text-align: center;
-   margin: 80px;
-   /*border: 2px solid re;*/
-   padding:20px;
-   background-color: ghostwhite;
-
-   width:1060px;
-   margin:0 auto;
+#container {
+    text-align: center;
+    margin: 80px;
+    /*border: 2px solid re;*/
+    padding:20px 0 20px 0;
+    background-color: ghostwhite;
+    width:1060px;
+    margin:0 auto;
 }
 
  
- ul.nav li{   
-      margin: 30px;
-   	display: inline; 
-
-   }
-
-.header{
-margin:20px;
-padding: 5px;
-width:300px;
-height:450px;
-float:left;
-
+ul.nav li {   
+    margin: 30px;
+    display: inline; 
 }
 
-
-ul.footer li{
-margin:30px;
-display: inline;
+.header {
+    margin:20px;
+    padding: 5px;
+    width:300px;
+    height:450px;
+    float:left;
 }
-
 
 .nav {
-	width: 550px;
+    width: 550px;
     height: 35px;
     font-size: 24px;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     text-align: right;
     border-radius: 8px;
-    padding-left: 210px;
+    padding-left: 260px;
 }
 
 .nav ul {
@@ -63,8 +54,8 @@ display: inline;
 }
 
 .nav li { 
-display: inline; 
-padding: 20px; 
+    display: inline; 
+    padding: 20px; 
 }
 
 #cause1 img{
@@ -92,14 +83,157 @@ padding: 20px;
 	padding-left: 10px;
 }
 
+
+/* contact section */
+
+#conMainContent {
+    width:1060px;
+    height:730px;
+}
+
+#conLeftContent {
+    width:65%;
+    padding:15px 40px 40px 40px;
+    background-color:#f2f2f2;
+    float:left;
+    display:block;
+    margin-bottom:25px;
+}
+
+#conLeftContent h2 {
+    font-size:20px;
+    color:#31b143;
+    font-family: arial;
+    text-align: left;
+    margin-top:25px;
+    margin-bottom:5px;
+    font-weight: 300;
+}
+
+#conLeftContent p.bigger {
+    font-size:14px;
+    color:#252525;
+    text-align: left;
+    font-family: arial;
+    line-height: 20px;
+    margin:0;
+}
+
+#conLeftContent p {
+    font-size:13px;
+    color:#252525;
+    text-align: left;
+    font-family: arial;
+    line-height: 20px;
+    margin:0;
+}
+
+#conLeftContent a {
+    color:#31b143;
+}
+
+form {
+    float:left;
+    margin-top:25px;
+}
+
+form p {
+    padding:10px 0 0 0;
+}
+
+input {
+    padding: 8px;
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    background-color:#ffffff;
+    color:#000000;
+    width:660px;
+}
+
+input.moreSpace {
+    padding: 8px;
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    background-color:#ffffff;
+    color:#000000;
+    width:660px;
+    height:120px;
+}
+
+input.formButton {
+    background-color: #31b143;
+    color:#ffffff;
+    width:70px;
+    border:0;
+    float:left;
+    margin-top:25px;
+}
+
+#conDonateBar {
+    width:211px;
+    float:left;
+    padding:15px 40px 40px 40px;
+    background-color:#e1e1e1;
+    height:668px;
+}
+
+#conDonateBar h2 {
+    font-size:20px;
+    color:#31b143;
+    font-family: arial;
+    text-align: left;
+    margin-top:25px;
+    margin-bottom:5px;
+    font-weight: 100;
+}
+
+#conDonateBar p {
+    font-size:13px;
+    color:#000000;
+    text-align: left;
+    font-family: arial;
+    line-height: 20px;
+    margin:0;
+    font-weight: 100;
+}
+
+#conDonateBar a {
+    font-size:13px;
+    color:#31b143;
+    text-align: left;
+    font-family: arial;
+    line-height: 20px;
+    margin:0;
+    font-weight: 100;
+}
+
+#conDonateBar p.contactTitle {
+    border-bottom:1px solid #f2f2f2;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#conDonateBar .donate-btn {
+    margin-top:20px;
+    width:215px;
+    background-color: #31b143;
+    border:0;
+    color:#ffffff;
+    letter-spacing: 1px;
+}
+
+
+/* end contact section */
+
+
 .donate{
-padding:50px 25px; 
-background:#35b128; 
-border:1px solid #33842a; 
-text-align: center;
-color:#f3f3f3;
-font-size:20pt;
-clear:both;
+    padding:50px 25px; 
+    background:#35b128; 
+    border:1px solid #33842a; 
+    text-align: center;
+    color:#f3f3f3;
+    font-size:20pt;
+    clear:both;
 }
 
 .donate-btn{
@@ -111,7 +245,7 @@ clear:both;
 }
 
 .footer {
-  clear:both;
+    clear:both;
 	width: 550px;
     height: 35px;
     font-size: 24px;
@@ -120,6 +254,13 @@ clear:both;
     text-align: right;
     border-radius: 8px;
     padding-left: 210px;
+    display:block;
+}
+
+
+ul.footer li{
+    margin:30px;
+    display: inline;
 }
 
 .footer ul {
@@ -129,6 +270,6 @@ clear:both;
 }
 
 .footer li { 
-  display: inline; 
-  padding: 20px; 
+    display: inline; 
+    padding: 20px; 
 }
