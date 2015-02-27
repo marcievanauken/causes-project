@@ -11,6 +11,11 @@ body {
     margin:0;
 }
 
+body.noscroll{
+    position:fixed;
+    overflow:hidden;
+}
+
 
 #container {
     text-align: center;
@@ -37,14 +42,11 @@ ul.nav li {
 }
 
 .nav {
-    width: 550px;
     height: 35px;
     font-size: 24px;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
-    text-align: right;
     border-radius: 8px;
-    padding-left: 260px;
 }
 
 .nav ul {
@@ -98,6 +100,7 @@ ul.nav li {
     float:left;
     display:block;
     margin-bottom:25px;
+    height:668px;
 }
 
 #conLeftContent h2 {
@@ -131,6 +134,54 @@ ul.nav li {
 #conLeftContent a {
     color:#31b143;
 }
+
+/* DONATE PAGE */
+.now {
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    font-weight: 40;
+    color:#31b143;
+    font-weight: bold;
+}
+
+#gallery {
+    height:100%;
+    width:100%;
+    margin-top:20px;
+}
+
+#gallery img {
+}
+
+.thumbnail {
+    width:169px;
+}
+
+.callout {
+    color:#31b143;
+    font-weight: bold;
+}
+
+.focused {
+    z-index: 2;
+    position: absolute;
+    top:160px;
+    left:350px;
+}
+
+#lightbox {
+    display:none;
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    height:100%;
+    width:100%;
+    opacity: 0.75;
+}
+
+/* END DONATE PAGE */
 
 form {
     float:left;

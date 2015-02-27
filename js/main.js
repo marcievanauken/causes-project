@@ -11,3 +11,17 @@ $(function() {
 	$(".formButton").on("click", sayHi);
 
 });
+
+$(function(){
+	$("img.thumbnail").on("click", function() {
+		var imgTag = "<img class='focused' src='" + this.src + "'>";
+		$("#lightbox").show();
+		$("body").append(imgTag);
+		$("html").addClass("noscroll");
+	});
+	$("#lightbox").on("click", function() {
+		$(this).hide();
+		$(".focused").remove();
+		$("body").removeClass("noscroll");
+	});
+});
