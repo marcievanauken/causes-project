@@ -40,16 +40,22 @@ li{
     color: blue;
 }
 #currentWeather{
-    font-size: 26px;
     float: left;
     padding-left: 32px;
 }
 
 #pastWeather{
-    font-size: 26px;
     float: right;
     padding-right: 32px;
 
+}
+
+#pastWeather p {
+    font-size: 26px;
+}
+
+#currentWeather p {
+    font-size: 26px;
 }
 
 #allWeather{

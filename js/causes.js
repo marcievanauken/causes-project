@@ -14,7 +14,8 @@ $('.js-geolocation').on('click', function() {
 
 
 $(document).ready(function() {
-  loadWeather('New York','', "#weather", 0); 
+  loadWeather('New York','', "#currentWeather", 0); 
+  loadWeather('New York','', '#pastWeather', -10); 
 });
 
 function loadWeather(location, woeid, el, adjustment) {
@@ -27,7 +28,7 @@ function loadWeather(location, woeid, el, adjustment) {
       html = '<h2><i class="icon-'+weather.code+'"></i> '+temp+'&deg;'+weather.units.temp+'</h2>';
       html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
       
-      $(el).html(html);
+      $(el).append(html);
     },
     error: function(error) {
       $(el).html('<p>'+error+'</p>');
@@ -50,6 +51,3 @@ $('.js-geolocation').on('click', function() {
 });
 
 
-$(document).ready(function() {
-  loadWeather('New York','', '#pastWeather', 10); 
-});
